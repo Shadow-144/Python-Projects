@@ -6,8 +6,8 @@ ran = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_
 num_of_pass = int(input("Enter the number of password you want to create : "))
 length = int(input("Enter the length of your passwords : "))
 # logic for the password
+passwds = ""
 for passwd in range(num_of_pass):
-    passwds = ""
     for c in range(length):
         passwds = passwds + random.choice(ran)
     print(passwds)
