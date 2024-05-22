@@ -11,7 +11,7 @@ if(q_1 ==  "right"):
             q_4 = ("You have seen a beautiful girl do you want to ask her name (Yes/No): ").lower
             if(q_4 == "yes"): 
                 print("you woke up and it was a dream")
-            elif(q_4 == "no")
+            elif(q_4 == "no"):
                 print("Game over")
             else: 
                 print("Not a valid option")
