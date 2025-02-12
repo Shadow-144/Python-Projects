@@ -30,6 +30,5 @@ msg1, msg2 = hash_file("p1.pdf", "p1 copy.pdf")
 # last condition to check for the output
 if(msg1!= msg2):
     print("The files are not identical")
-
 else:
     print("The files are identical")
